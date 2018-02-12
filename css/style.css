@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    background: #CEECF5;
+}
+
+html, body {
+    height: 100%;
+
+}
+.page {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigation {
+    width: 24%;
+    float: left;
+    height: 100vh;
+    background: white;
+    position: fixed;
+}
+
+.content {
+    float: right;
+    width: 70%;
+    height: 100vh;
+    overflow-y: hidden;
+    margin-bottom: 0;
+    background: white;
+}
+
+.footer {
+    position: fixed;
+    width: inherit;
+    bottom: 0;
+    height: 4vh;
+    background: #070719;
+}
+
+.navigation .header_nav {
+    text-align: center;
+    padding: 5px;
+}
+
+.navigation .search-field {
+    height: 5%;
+}
+.navigation #search_field {
+    font-style: italic;
+    width: 85%;
+}
+
+.sidebar .select_items {
+    overflow-y: auto;
+    height: 90vh;
+
+
+}
+
+.sidebar .select_items div {
+    padding: 10px;
+    height: 100px;
+    border-bottom: 1px solid #9EC1D4;
+
+}
+
+.sidebar .select_items .left {
+    float: left;
+
+
+}
+.sidebar .select_items .right{
+    float: right;
+    text-align: right;
+}
+
+::-webkit-scrollbar{
+    width:12px;
+}
+::-webkit-scrollbar-thumb{
+    border-width:1px 1px 1px 2px;
+    border-color: #777;
+    background-color: #aaa;
+}
+
+::-webkit-scrollbar-track {
+    border-width: 0;
+}
+
+
+.sidebar .select_items .order_info {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.sidebar .select_items .order_date {
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.sidebar .select_items .order_status {
+    color: green;
+}
+
+.sidebar .select_items div:nth-child(2) .order_status,
+.sidebar .select_items div:last-child .order_status {
+    color: orange;
+}
+
+.select_items div:hover {
+    background: lightgrey; /* Цвет фона активного пункта */
+}
+
+.content .content_title {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #9EC1D4;
+}
+
+.content .order_information {
+    height: 30%;
+    padding: 20px;
+}
+
+
+.content .order_information .order_id {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.content .order_information .order_summ {
+    font-size: 20px;
+}
+
+.content .order_information .order_summ,
+.content .order_information .order_summ_curr {
+    float: right;
+
+}
+
+.content .order_information .order_summ_curr {
+    line-height: 0.5;
+}
+
+
+.content .icons {
+    height: 60px;
+    border-bottom: 2px solid #9EC1D4;
+    padding: 5px 20px;
+}
+.content .icons i:last-child{
+    margin-left: 10px;
+}
+
+.content .icons i:hover {
+    background: lightgrey; /* Цвет фона активного пункта */
+}
+
+
+.content .shipping_information {
+
+    padding: 20px;
+    border-bottom: 1px solid #9EC1D4;
+}
+
+.content .shipping_information .address {
+    width: 100%;
+    border-bottom: 1px solid #9EC1D4;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.content .shipping_information .information {
+    padding-top: 20px;
+    margin-left: 70px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.content .shipping_information .information table td:first-child {
+    text-align: right;
+}
+
+.content .line_items {
+    margin: 20px auto 50px auto;
+}
+
+.content .line_items table {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.content .line_items .lines_title {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 20px;
+    border-collapse: collapse;
+}
+
+
+.content .line_items .line_items_table .title {
+    background: #E6E6E6;
+}
+
+.content .line_items .line_items_table tr td {
+    text-align: center;
+
+    width: 25%;
+    border-spacing: 0;
+
+}
+
+.content .line_items .line_items_table td {
+    font-size: 17px;
+    vertical-align: center;
+    margin: 5px;
+
+}
+
+.content .line_items .line_items_table tr {
+    text-align: center;
+    border-bottom: 1px solid #9EC1D4;
+}
+
+.content .line_items .line_items_table td:first-child,
+.content .line_items .line_items_table th:first-child {
+    text-align: left;
+
+}
+
+.content .line_items .line_items_table td:last-child,
+.content .line_items .line_items_table th:last-child {
+    text-align: right;
+}
+
+.content .line_items .line_items_table tr td span {
+    font-weight: bold;
+}
+
+.footer {
+    color: white;
+    box-sizing: border-box;
+    padding: 5px;
+    vertical-align: center;
+
+}
+
+.footer .navigation_footer {
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+
+.footer .content_footer {
+    text-align: right;
+}
